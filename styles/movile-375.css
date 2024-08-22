@@ -1,0 +1,70 @@
+:root{
+    /* ### Primary*/
+ 
+     --Bright-orange: hsl(31, 77%, 52%);
+     --Dark-cyan: hsl(184, 100%, 22%);
+     --Very-dark-cyan: hsl(179, 100%, 13%);
+ 
+     /*### Neutral*/
+ 
+     --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+     --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+ }
+ 
+ 
+ .principal{
+     left: 50px;
+ }
+ 
+ button{
+     border-radius: 50px;
+     height:40px;
+     width: 150px;
+     border: 0px;
+     font-family: "Lexend Deca";
+     margin: 10px 0 10px 0;
+     background-color: var(--Very-light-gray-background-headings-buttons);
+ }
+ 
+ body{
+     margin: 70px 20px;
+ }
+ 
+ .titulo-colums{
+     font-family: "Big Shoulders Display", sans-serif;
+     color: var(--Transparent-white-paragraphs);
+     font-size: 30px;
+ }   
+ 
+ p{
+     font-family: "Lexend Deca" , sans-serif;
+     color: var(--Transparent-white-paragraphs);
+}
+ 
+ .principal div{
+     width: 255px;
+     height: 300px;
+     padding: 40px;
+ }
+
+ .colum1{
+     background-color: var(--Bright-orange);    
+ }
+ 
+ .colum2{
+     background-color: var(--Dark-cyan);   
+ }
+ .colum3{
+     background-color: var(--Very-dark-cyan);
+ }
+ 
+ .colum1 button{
+     color: var(--Bright-orange);
+ }
+ .colum2 button{
+     color: var(--Dark-cyan);
+ }
+ .colum3 button{
+     color: var(--Very-dark-cyan);
+ }
+ 

@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content:center;
+    justify-content:center;
+}
+.principal{
+    display: flex;
+    
+}
+
+.principal div{
+   max-height: 900px;
+}
+.colum1 {
+    border-radius: 10px 0 0 10px;
+}
+.colum3{
+    border-radius: 0 10px 10px 0;
+}
